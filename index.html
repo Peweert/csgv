@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <div id="header-placeholder"></div>
+  <body class="bg-primary">
+    <div id="nav-placeholder"></div>
+    <style>
+      .carousel-item img {
+        height: 300px;
+        object-fit: cover;
+      }
+      h2 {
+        color: white;
+        text-align: center;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+      }
+    </style>
+    <main class="container mt-5 text-white text-center">
+      <h1>Welcome to the Home Page</h1>
+      <p>This is a simple site styled with Bootstrap and SCSS!</p>
+
+      <h2 class="text-white text-center">LATEST COLLECTIONS</h2>
+      <div
+        id="latestCollectionsCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex">
+              <div class="col-md-4">
+                <img src="image/carou1.png" class="d-block w-100" alt="1" />
+              </div>
+              <div class="col-md-4">
+                <img src="image/carou2.png" class="d-block w-100" alt="2" />
+              </div>
+              <div class="col-md-4">
+                <img src="image/carou3.png" class="d-block w-100" alt="3" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex">
+              <div class="col-md-4">
+                <img src="image/carou2.png" class="d-block w-100" alt="2" />
+              </div>
+              <div class="col-md-4">
+                <img src="image/carou3.png" class="d-block w-100" alt="3" />
+              </div>
+              <div class="col-md-4">
+                <img src="image/carou4.png" class="d-block w-100" alt="4" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex">
+              <div class="col-md-4">
+                <img src="image/carou3.png" class="d-block w-100" alt="3" />
+              </div>
+              <div class="col-md-4">
+                <img src="image/carou4.png" class="d-block w-100" alt="4" />
+              </div>
+              <div class="col-md-4">
+                <img src="image/carou5.png" class="d-block w-100" alt="5" />
+              </div>
+            </div>
+          </div>
+          <!-- Continue creating more slides if needed -->
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#latestCollectionsCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#latestCollectionsCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+
+      <!-- Best Selling Products -->
+      <h2>BEST SELLING PRODUCTS</h2>
+      <div
+        id="bestSellingCarousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="image/carou4.png"
+              class="d-block w-100"
+              alt="Forever Young Tee"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="image/carou5.png"
+              class="d-block w-100"
+              alt="Black Outfit"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="image/carou6.png"
+              class="d-block w-100"
+              alt="Orange Sneakers"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#bestSellingCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#bestSellingCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="js/script.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
