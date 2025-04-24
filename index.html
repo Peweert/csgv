@@ -29,10 +29,7 @@
   <body class="bg-primary">
     <div id="nav-placeholder"></div>
 
-    <section
-      class="position-relative overflow-hidden"
-      style="width: 100vw; height: 100vh"
-    >
+    <section class="position-relative overflow-hidden" style="height: 100vh">
       <!-- Fullscreen Background Image -->
       <img
         src="image/hero.png"
@@ -89,7 +86,7 @@
 
           <!-- Right: Circular Image -->
           <div
-            class="col-md-6 d-flex justify-content-center align-items-center"
+            class="col-md-6 d-none d-md-flex justify-content-center align-items-center"
           >
             <div
               class="rounded-circle border border-4 border-white overflow-hidden"
@@ -187,7 +184,7 @@
       </div>
 
       <!-- Best Selling Products -->
-      <h2 class="text-black mt-6 pt-6">BEST SELLING PRODUCTS</h2>
+      <h2 id="sell" class="text-black mt-6 pt-6">BEST SELLING PRODUCTS</h2>
       <div
         id="bestSellingCarousel"
         class="carousel slide"
@@ -222,7 +219,7 @@
         </div>
       </div>
 
-      <section class="py-5">
+      <section class="py-5 mt-5">
         <div class="container">
           <h2 class="text-center mb-5 text-black">TESTIMONIALS</h2>
           <div class="row justify-content-start">
@@ -299,7 +296,7 @@
         <div class="container">
           <h1 class="mb-4 text-black">TrendyWeaR</h1>
           <a
-            href="#shop"
+            href="#sell"
             class="btn btn-warning btn-lg text-white"
             style="width: 250px"
           >
